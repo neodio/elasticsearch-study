@@ -1,0 +1,17 @@
+{
+  "dynamic": false,
+  "properties": {
+    "prodNo": {
+      "type": "long"
+    },
+    "prodNm": {
+      "type": "text",
+      "fields": {
+        "keyword": {
+          "type": "keyword",
+          "ignore_above": 256
+        }
+      }
+    }
+  }
+}
